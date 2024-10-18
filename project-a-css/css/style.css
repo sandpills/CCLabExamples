@@ -1,0 +1,60 @@
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    color: rgb(66, 60, 237);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40;
+}
+
+a:hover {
+    color: green
+}
+
+/* class */
+.like {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dislike {
+    text-align: center;
+}
+
+/* id */
+#blue-text {
+    color: blue;
+}
+
+#title {
+    position: relative;
+    background-color: darkgrey;
+    height: 20%;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+}
+
+#title:hover {
+    font-size: 60;
+    background-color: gold;
+    width: 50%;
+    transition: background-color 1s, width 1s;
+}
+
+#content {
+    display: none;
+    position: relative;
+    background-color: rgb(255, 241, 191);
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#p5-canvas-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
